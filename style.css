@@ -1,0 +1,930 @@
+/* 경복궁 수문장 서체 가져오는 코드 */
+@font-face {
+    font-family: 'GyeongbokgungSumunjangTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-3@1.0/Sumunjang_TitleL.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+/* 노토산스 서체 가져오는 코드 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+*{margin: 0;padding: 0;text-decoration: none;list-style-type: none;}*{margin: 0;padding: 0;text-decoration: none;list-style-type: none;}
+
+/* 인덱스 스타일 */
+.video_wrap{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+video{
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+}
+.bt_01{
+    z-index: 10;
+    position: absolute;   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 폰트 세팅 */
+.font01{
+    font-family: 'GyeongbokgungSumunjangTitle';
+}
+.font02{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 서브페이지 스타일 */
+.box{width: 100%;position: relative;}
+.a_box{
+    height: 692px;
+    background-image: url(img/bg_01.png);
+}
+.b_box{
+    height: 606px;
+    background-image: url(img/bg_02.png);
+}
+.c_box{
+    height: 566px;
+    background-image: url(img/bg_03.png);
+    overflow: hidden;
+}
+.d_box{
+    height: 566px;
+    background-image: url(img/bg_03.png);
+    overflow: hidden;
+}
+.e_box{
+    height: 566px;
+    background-image: url(img/bg_03.png);
+    overflow: hidden;
+}
+.f_box{
+    height: 607px;
+    background-image: url(img/bg_04.png);
+}
+.g_box{
+    height: 566px;
+    background-image: url(img/bg_05.png);
+    overflow: hidden;
+}
+.h_box{
+    height: 566px;
+    background-image: url(img/bg_05.png);
+    overflow: hidden;
+}
+.i_box{
+    height: 566px;
+    background-image: url(img/bg_05.png);
+    overflow: hidden;
+}
+.j_box{
+    height: 142px;
+    background-image: url(img/bg_11.png);
+}
+.k_box{
+    height: 242px;
+    background-image: url(img/bg_06.png);
+    overflow: hidden;
+}
+.l_box{
+    height: 242px;
+    background-image: url(img/bg_07.png);
+    overflow: hidden;
+}
+.m_box{
+    height: 242px;
+    background-image: url(img/bg_08.png);
+    overflow: hidden;
+}
+.n_box{
+    height: 242px;
+    background-image: url(img/bg_09.png);
+    overflow: hidden;
+}
+.o_box{
+    height: 242px;
+    background-image: url(img/bg_10.png);
+    overflow: hidden;
+}
+.p_box{
+    height: 189px;
+    background-image: url(img/bg_12.png);
+    overflow: hidden;
+}
+
+/* a박스 스타일 */
+.tit_01{
+    padding: 81px 0px 0px 178px;
+}
+.txt_01{
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding: 32px 0px 0px 0px;
+}
+
+
+/* b박스 스타일 */
+.tit_02{
+    padding: 51px 0px 0px 124px;
+}
+.txt_02{
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding: 23px 0px 0px 0px;
+}
+
+/* c박스 이름, 메인 캐릭터 */
+.c_01{
+    position: absolute;
+    width: 76px;
+    height: 298px;
+    background-image: url(img/name_01.png);
+    top: 42px;
+    left: 65px;
+}
+.c_02{
+      position: absolute;
+    width: 213px;
+    height: 497px;
+    background-image: url(img/ct_01.png);
+    top: 48px;
+    left: 127px;
+    z-index: 10;
+}
+
+/* c박스 텍스트 스타일 */
+.txt03_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt03_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_04{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #0080B0;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_01{
+    position: absolute;
+    width: 215px;
+    height: 104px;
+    background-color: #000000;
+    margin-top: 323px;
+    margin-left: 185px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt05{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 337px 0px 0px 199px;
+    z-index: 150;
+}
+
+/* d박스 이름, 메인 캐릭터 */
+.d_01{
+    position: absolute;
+    width: 76px;
+    height: 218px;
+    background-image: url(img/name_02.png);
+    top: 42px;
+    left: 65px;
+}
+.d_02{
+      position: absolute;
+    width: 233px;
+    height: 488px;
+    background-image: url(img/ct_02.png);
+    top: 59px;
+    left: 148px;
+    z-index: 10;
+}
+
+/* d박스 텍스트 스타일 */
+.txt06_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt06_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_07{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #0080B0;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_02{
+    position: absolute;
+    width: 207px;
+    height: 164px;
+    background-color: #000000;
+    margin-top: 279px;
+    margin-left: 34px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt08{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 289px 0px 0px 44px;
+    z-index: 150;
+}
+
+/* e박스 이름, 메인 캐릭터 */
+.e_01{
+    position: absolute;
+    width: 76px;
+    height: 223px;
+    background-image: url(img/name_03.png);
+    top: 42px;
+    left: 65px;
+    z-index: 20;
+}
+.e_02{
+      position: absolute;
+    width: 273px;
+    height: 485px;
+    background-image: url(img/ct_03.png);
+    top: 63px;
+    left: 73px;
+    z-index: 10;
+}
+
+/* e박스 텍스트 스타일 */
+.txt09_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt09_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_10{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #0080B0;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_03{
+    position: absolute;
+    width: 211px;
+    height: 134px;
+    background-color: #000000;
+    margin-top: 294px;
+    margin-left: 34px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt11{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 306px 0px 0px 44px;
+    z-index: 150;
+}
+
+/* f박스 스타일 */
+.tit_03{
+    padding: 51px 0px 0px 124px;
+}
+.txt_12{
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding: 23px 0px 0px 0px;
+}
+
+/* g박스 이름, 메인 캐릭터 */
+.g_01{
+    position: absolute;
+    width: 76px;
+    height: 224px;
+    background-image: url(img/name_04.png);
+    top: 42px;
+    left: 65px;
+    z-index: 20;
+}
+.g_02{
+    position: absolute;
+    width: 248px;
+    height: 469px;
+    background-image: url(img/ct_04.png);
+    top: 72px;
+    left: 82px;
+    z-index: 10;
+}
+
+.cl_01{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-image: url(img/circle_01.png);
+    top: 203px;
+    left: 348px;
+    z-index: 15;
+}
+
+/* e박스 텍스트 스타일 */
+.txt13_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt13_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_14{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #B30000;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_04{
+    position: absolute;
+    width: 212px;
+    height: 132px;
+    background-color: #000000;
+    margin-top: 315px;
+    margin-left: 18px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt15{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 325px 0px 0px 26px;
+    z-index: 150;
+}
+
+/* h박스 이름, 메인 캐릭터 */
+.h_01{
+    position: absolute;
+    width: 77px;
+    height: 229px;
+    background-image: url(img/name_05.png);
+    top: 42px;
+    left: 65px;
+    z-index: 20;
+}
+.h_02{
+    position: absolute;
+    width: 245px;
+    height: 495px;
+    background-image: url(img/ct_05.png);
+    top: 61px;
+    left: 111px;
+    z-index: 10;
+}
+
+/* h박스 텍스트 스타일 */
+.txt16_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt16_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_17{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #B30000;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_05{
+    position: absolute;
+    width: 223px;
+    height: 149px;
+    background-color: #000000;
+    margin-top: 294px;
+    margin-left: 22px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt18{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 305px 0px 0px 27px;
+    z-index: 150;
+}
+
+/* i박스 이름, 메인 캐릭터 */
+.i_01{
+    position: absolute;
+    width: 76px;
+    height: 375px;
+    background-image: url(img/name_06.png);
+    top: 42px;
+    left: 65px;
+    z-index: 20;
+}
+.i_02{
+    position: absolute;
+    width: 255px;
+    height: 493px;
+    background-image: url(img/ct_06.png);
+    top: 42px;
+    left: 51px;
+    z-index: 10;
+}
+
+/* i박스 텍스트 스타일 */
+.txt19_1{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 10px;
+    font-weight: 700;
+    padding: 42px 0px 0px 139px;
+    word-spacing: 10px;
+}
+.txt19_2{
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    padding: 42px 0px 0px 338px;
+}
+.txt_20{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 20px;
+    color: #B30000;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 129px 0px 0px 340px;
+}
+.box_06{
+    position: absolute;
+    width: 162px;
+    height: 169px;
+    background-color: #000000;
+    margin-top: 258px;
+    margin-left: 215px;
+    z-index: 100;
+    opacity: 0.5 !important;
+}
+.txt21{
+    position: absolute;
+    font-family: 'GyeongbokgungSumunjangTitle';
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    padding: 271px 0px 0px 223px;
+    z-index: 150;
+}
+
+/* j박스 스타일 */
+.tit_04{
+    padding: 39px 0px 0px 143px;
+}
+
+/* k박스, 이미지 스타일 */
+.k_01{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 19px;
+}
+.k_02{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 124px;
+}
+.k_03{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 19px;
+}
+.k_04{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 124px;
+}
+.k_05{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 19px;
+}
+.k_06{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 124px;
+}
+
+/* l박스, 텍스트, 버튼 스타일 */
+.k_box_01{
+    position: absolute;
+    width: 181px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 230px;
+    background-color: #000000;
+    opacity: 60%;
+}
+.txt_22{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    color: #B21F24;
+    text-align: center;
+    font-weight: 500;
+    padding: 55px 0px 0px 274px;
+}
+.txt_23{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 79px 0px 0px 245px;
+}
+.bt_001{
+    position: absolute;
+    padding: 165px 0px 0px 286px;
+}
+
+/* l박스, 이미지 스타일 */
+.l_01{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 19px;
+}
+.l_02{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 124px;
+}
+.l_03{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 19px;
+}
+.l_04{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 124px;
+}
+.l_05{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 19px;
+}
+.l_06{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 124px;
+}
+
+/* l박스, 텍스트, 버튼 스타일 */
+.l_box_01{
+    position: absolute;
+    width: 181px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 230px;
+    background-color: #000000;
+    opacity: 60%;
+}
+.txt_24{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    color: #B21F24;
+    text-align: center;
+    font-weight: 500;
+    padding: 55px 0px 0px 237px;
+}
+.txt_25{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 79px 0px 0px 253px;
+}
+.bt_002{
+    position: absolute;
+    padding: 165px 0px 0px 286px;
+}
+
+/* m박스, 이미지 스타일 */
+.m_01{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 19px;
+}
+.m_02{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 124px;
+}
+.m_03{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 19px;
+}
+.m_04{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 124px;
+}
+.m_05{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 19px;
+}
+.m_06{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 124px;
+}
+
+/* m박스, 텍스트, 버튼 스타일 */
+.m_box_01{
+    position: absolute;
+    width: 181px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 230px;
+    background-color: #000000;
+    opacity: 60%;
+}
+.txt_26{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    color: #B21F24;
+    text-align: center;
+    font-weight: 500;
+    padding: 60px 0px 0px 298px;
+}
+.txt_27{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 84px 0px 0px 237px;
+}
+.bt_003{
+    position: absolute;
+    padding: 165px 0px 0px 286px;
+}
+
+/* n박스, 이미지 스타일 */
+.n_01{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 19px;
+}
+.n_02{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 124px;
+}
+.n_03{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 19px;
+}
+.n_04{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 124px;
+}
+.n_05{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 19px;
+}
+.n_06{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 124px;
+}
+
+/* n박스, 텍스트, 버튼 스타일 */
+.n_box_01{
+    position: absolute;
+    width: 181px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 230px;
+    background-color: #000000;
+    opacity: 60%;
+}
+.txt_28{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    color: #B21F24;
+    text-align: center;
+    font-weight: 500;
+    padding: 60px 0px 0px 264px;
+}
+.txt_29{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 84px 0px 0px 248px;
+}
+.bt_004{
+    position: absolute;
+    padding: 165px 0px 0px 286px;
+}
+
+/* o박스, 이미지 스타일 */
+.o_01{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 19px;
+}
+.o_02{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 124px;
+}
+.o_03{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 19px;
+}
+.o_04{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 124px;
+}
+.o_05{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 19px;
+}
+.o_06{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 124px;
+}
+
+/* o박스, 텍스트, 버튼 스타일 */
+.o_box_01{
+    position: absolute;
+    width: 181px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 230px;
+    background-color: #000000;
+    opacity: 60%;
+}
+.txt_30{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    color: #B21F24;
+    text-align: center;
+    font-weight: 500;
+    padding: 57px 0px 0px 284px;
+}
+.txt_31{
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 9px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 81px 0px 0px 248px;
+}
+.bt_005{
+    position: absolute;
+    padding: 165px 0px 0px 286px;
+}
+
+/* p박스 스타일 */
+.bt_006{
+    padding: 76px 0px 0px 19px;
+}
